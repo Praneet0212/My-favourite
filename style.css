@@ -12,6 +12,7 @@ body {
 h2 {
     font-family: Crimson Pro;
     color: red;
+    font-size: 30px;
 }
 
 span {
@@ -19,20 +20,21 @@ span {
     color: #283593;
 }
 
-h1 {
+#hobby {
     font-family: 'Vampiro_One', cursive;
     color: #D84315;
+    font-size: 35px;
 }
 
-p {
-    font-size: 20px;
+#p {
+    font-size: 25px;
     color: bisque;
     font-weight: 500;
 }
 
 .links {
     float: left;
-    color: purple;
+    color: green;
     padding: 5px 9px;
     font-family: Agency FB;
     font-size: 20px;
@@ -58,4 +60,47 @@ p {
     right: 30px;
     z-index: 10;
     cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.line {
+    height: 6px;
+    background-color: darkslateblue;
+    width: 70px;
+    margin: 8px auto;
+}
+
+h3 {
+    color: coral;
+    font-size: 20px;
+    font-family: Comic Sans MS, cursive;
+}
+
+.img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20%;
+}
+
+.names {
+    font-size: 25px;
+    font-family: Agency FB;
+    color: red;
+}
+
+h1 {
+    font-size: 35px;
+    color: darkorange;
+    font-family: Algerian;
+}
+
+.menu {
+    background-color: beige;
 }
