@@ -104,3 +104,17 @@ h1 {
 .menu {
     background-color: beige;
 }
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+.im {
+    height: 300px;
+    width: 300px
+}
