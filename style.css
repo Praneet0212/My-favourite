@@ -41,7 +41,7 @@ span {
 }
 
 .links:hover {
-    background-color: bisque;
+    background-color: antiquewhite;
 }
 
 .links:active {
@@ -60,6 +60,7 @@ span {
     right: 30px;
     z-index: 10;
     cursor: pointer;
+    background-color: white;
 }
 
 html {
@@ -117,4 +118,28 @@ img:hover {
 .im {
     height: 300px;
     width: 300px
+}
+
+#con {
+    font-family: Comic Sans MS, monospace;
+    font-size: 20px;
+}
+
+#co {
+    background-color: orange;
+}
+
+.h {
+    font-family: Comic Sans MS, cursive;
+    font-size: 20px;
+    color: blue;
+}
+
+#co1 {
+    color: black;
+    text-shadow: none;
+}
+
+#co h3 {
+    display: inline;
 }
